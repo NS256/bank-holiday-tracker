@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UK Bank Holidays</title>
+        <script src="JS/script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>UK Bank Holidays</h1>
+        </header>
+        <main>
+            <div id="dropdown-container">
+                <table>
+                    <tr class="select-region-row">
+                        <td><label for="select-region">Select Region:</label></td>
+                        <td colspan="7"><select id="select-region" name="select-region"></select></td>
+                    </tr>
+                    <tr id='select-year'>
+                        <td><strong>Select Year:</strong></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="bank-holidays-container">
+            </div>
+        </main>
+        <footer>
+            <p class="data-src-msg">All data gathered using Gov.uk Bank Holiday API.</p>
+        </footer>
+    </body>
+</html>
